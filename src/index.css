@@ -1,6 +1,9 @@
 @import url("./vendor/fonts.css");
 @import url("../src/blocks/main.css");
 
+root {
+  min-width: 800px;
+}
 
 body {
   margin: 0;
