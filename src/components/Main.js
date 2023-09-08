@@ -11,7 +11,11 @@ function Main() {
         <h1 className="main__title">ТВОЯ ТЕРРИТОРИЯ СИЛЫ</h1>
         <p className="main__startdate">СТАРТ ПРОДАЖ 9 СЕНТЯБРЯ 2023 ГОДА</p>
         <p className="main__ordertext">Заказать экскурсию по комфортной жизни прямо сейчас:</p>
-        <button className="main__button">+7 499 229-75-75</button>
+        <button className="main__button">
+          <a href="tel:+74992297575" className="main__telephone">
+            +7 499 229-75-75
+          </a>
+        </button>
       </div>
       <img src={mainpic} className="main__pic" alt="Фотография дома"></img>
       <footer className="footer">

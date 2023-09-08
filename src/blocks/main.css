@@ -5,6 +5,11 @@
     
     align-items: center;
     position: relative;
+
+    @media screen and (max-width: 1050px){
+        padding: 0;
+        max-width: none;
+    }
 }
 
 .main__info {
@@ -12,6 +17,11 @@
     flex-direction: column;
     max-width: 809px;
     align-items: center;
+}
+
+.main__telephone {
+    text-decoration: none;
+    color: white;
 }
 
 .logo {
@@ -25,7 +35,7 @@
     color: #B08B49;
     text-align: center;
     font-family: Circe;
-    font-size: 70px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: 70px; 
@@ -35,7 +45,7 @@
 }
 
 .main__startdate {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 4px;
     line-height: 40px;
     color: #ffffff;
@@ -52,7 +62,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-    max-width: 276px;
+    max-width: 320px;
     margin: 0 0 25px;
 }
 
@@ -70,7 +80,7 @@
 
 .main__button {
     font-weight: 400;
-    font-size: 37px;
+    font-size: 32px;
     letter-spacing: 5px;
     color: #ffffff;
     font-family: "Circe";
@@ -81,7 +91,7 @@
     border: none;
     cursor: pointer;
     filter: drop-shadow(0px 0px 29px rgba(176, 139, 73, 0.26));
-    padding: 24px 30px;
+    padding: 20px 30px;
     box-sizing: border-box;
     margin: 0 0 85px;
 }
