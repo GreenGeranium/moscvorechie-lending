@@ -69,9 +69,6 @@
 .main__pic {
     top: 0;
     right: 0;
-    max-height: 1080px;
-    max-width: 936px;
-    width: 100%;
     position: absolute;
     height: 100%;
     object-fit: contain;
