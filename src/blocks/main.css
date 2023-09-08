@@ -1,7 +1,7 @@
 .main {
     background-color: #141B1F;
     padding-left: 175px;
-   
+    z-index: 0;
     
     align-items: center;
     position: relative;
@@ -65,6 +65,7 @@
     position: absolute;
     height: 100%;
     object-fit: contain;
+    z-index: -1;
 }
 
 .main__button {
